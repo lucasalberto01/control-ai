@@ -1,0 +1,17 @@
+[
+  { "id": "madeira", "name": "Madeira", "emoji": "🪵", "kind": "material", "capability": "nenhuma", "fuel": true },
+  { "id": "pedra", "name": "Pedra", "emoji": "🪨", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "agua", "name": "Água", "emoji": "💧", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "fruta", "name": "Fruta", "emoji": "🍎", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "grama", "name": "Grama", "emoji": "🌿", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "terra", "name": "Terra", "emoji": "🟫", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "areia", "name": "Areia", "emoji": "🏖️", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "forno", "name": "Forno", "emoji": "🧱", "kind": "estacao", "capability": "aquecer", "fuel": false },
+  { "id": "carvao", "name": "Carvão", "emoji": "⬛", "kind": "material", "capability": "nenhuma", "fuel": true },
+  { "id": "tocha", "name": "Tocha", "emoji": "🔥", "kind": "luz", "capability": "nenhuma", "fuel": false },
+  { "id": "vidro", "name": "Vidro", "emoji": "🪟", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "semente_da_horta", "name": "Semente de fruta", "emoji": "🌱", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "carne_crua", "name": "Carne crua", "emoji": "🥩", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "carne_assada", "name": "Carne assada", "emoji": "🍖", "kind": "material", "capability": "nenhuma", "fuel": false },
+  { "id": "couro", "name": "Couro", "emoji": "🟫", "kind": "material", "capability": "nenhuma", "fuel": false }
+]

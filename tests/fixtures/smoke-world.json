@@ -1,0 +1,459 @@
+{
+  "version": 2,
+  "map": {
+    "name": "Vale da Laya",
+    "width": 7,
+    "height": 7,
+    "buildLimit": 14,
+    "buildMargin": 1,
+    "sites": [
+      {
+        "id": "casa",
+        "kind": "casa",
+        "name": "Casinha",
+        "area": [
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "horta",
+        "kind": "horta",
+        "name": "Horta",
+        "area": [
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "bosque",
+        "kind": "bosque",
+        "name": "Bosque",
+        "area": [
+          {
+            "x": 1,
+            "y": 4
+          }
+        ]
+      },
+      {
+        "id": "pedreira",
+        "kind": "pedreira",
+        "name": "Pedreira",
+        "area": [
+          {
+            "x": 4,
+            "y": 5
+          }
+        ]
+      },
+      {
+        "id": "margem",
+        "kind": "margem",
+        "name": "Embarcadouro",
+        "area": [
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "lago",
+        "kind": "lago",
+        "name": "Lago",
+        "area": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 4
+          },
+          {
+            "x": 5,
+            "y": 4
+          }
+        ]
+      }
+    ],
+    "trails": [
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      },
+      {
+        "x": 3,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 5
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 3,
+        "y": 1
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 3
+      }
+    ],
+    "trees": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 5
+      },
+      {
+        "x": 1,
+        "y": 6
+      },
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
+        "x": 6,
+        "y": 1
+      },
+      {
+        "x": 6,
+        "y": 2
+      },
+      {
+        "x": 6,
+        "y": 5
+      },
+      {
+        "x": 5,
+        "y": 6
+      }
+    ],
+    "lookouts": [
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 4
+      },
+      {
+        "x": 1,
+        "y": 5
+      }
+    ],
+    "climate": {
+      "sunrise": 360,
+      "sunset": 1140,
+      "cycleStart": 480,
+      "phaseMinutes": 140,
+      "rainPhases": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    }
+  },
+  "state": {
+    "turn": 4,
+    "minute": 595,
+    "log": [
+      {
+        "text": "Laya usou Banco do Smoke: energia +6.",
+        "minute": 595
+      },
+      {
+        "text": "Laya instalou Banco do Smoke. Um banco para descansar e recuperar a energia.",
+        "minute": 570
+      },
+      {
+        "text": "Laya recolheu o kit de Banco do Smoke da bancada para a mochila.",
+        "minute": 539
+      },
+      {
+        "text": "Laya montou o kit de Banco do Smoke e deixou na bancada para recolher.",
+        "minute": 514
+      },
+      {
+        "text": "Laya chegou ao vale com uma bolsa de materiais.",
+        "minute": 480
+      }
+    ],
+    "active": 0,
+    "items": [
+      {
+        "id": "espada_smoke",
+        "name": "Espada de Smoke",
+        "emoji": "🗡️",
+        "kind": "objeto",
+        "capability": "nenhuma",
+        "fuel": false,
+        "damage": 6
+      }
+    ],
+    "recipes": [],
+    "installed": [],
+    "position": {
+      "x": 2,
+      "y": 1
+    },
+    "vitals": {
+      "energia": 74,
+      "fome": 44,
+      "alegria": 54,
+      "umidade": 20,
+      "sede": 30,
+      "hp": 100
+    },
+    "inventory": [
+      {
+        "item": "madeira",
+        "quantity": 3
+      },
+      {
+        "item": "pedra",
+        "quantity": 3
+      },
+      {
+        "item": "agua",
+        "quantity": 2
+      },
+      {
+        "item": "espada_smoke",
+        "quantity": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "xp": 6,
+    "alive": true,
+    "nextIdea": 10,
+    "nextWaterIdea": 0,
+    "nextWorkshop": 2,
+    "lastAction": "usar_3",
+    "walks": 0,
+    "rival": {
+      "id": "kael",
+      "name": "Kael",
+      "at": {
+        "x": 1,
+        "y": 1
+      },
+      "vitals": {
+        "energia": 82,
+        "fome": 24,
+        "alegria": 62,
+        "umidade": 36,
+        "sede": 18,
+        "hp": 70
+      },
+      "bag": [
+        {
+          "item": "madeira",
+          "quantity": 4
+        },
+        {
+          "item": "pedra",
+          "quantity": 3
+        },
+        {
+          "item": "agua",
+          "quantity": 2
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "xp": 0,
+      "alive": true,
+      "nextIdea": 0,
+      "nextWaterIdea": 0,
+      "nextWorkshop": 2,
+      "lastAction": "",
+      "walks": 0
+    },
+    "animals": [
+      {
+        "id": 77,
+        "at": {
+          "x": 5,
+          "y": 0
+        },
+        "hp": 6,
+        "nextBreak": 0,
+        "nextBite": 0
+      },
+      {
+        "id": 78,
+        "at": {
+          "x": 6,
+          "y": 6
+        },
+        "hp": 12,
+        "nextBreak": 0,
+        "nextBite": 0
+      }
+    ],
+    "drops": [],
+    "builds": [
+      {
+        "id": 3,
+        "at": {
+          "x": 2,
+          "y": 1
+        },
+        "plan": {
+          "nome": "Banco do Smoke",
+          "tipo": "objeto",
+          "ideia": "Um banco para descansar e recuperar a energia.",
+          "custo": {
+            "madeira": 1,
+            "pedra": 0
+          },
+          "pecas": [],
+          "regras": [
+            {
+              "gatilho": "uso",
+              "verbo": "efeito",
+              "alvo": "energia",
+              "quantidade": 6,
+              "insumo": "nenhum"
+            }
+          ],
+          "aparencia": {
+            "base": {
+              "peca": "laje",
+              "cor": "arenito"
+            },
+            "suporte": null,
+            "corpo": {
+              "peca": "assento",
+              "cor": "cedro"
+            },
+            "topo": null,
+            "adorno": {
+              "peca": "flores",
+              "cor": "lavanda"
+            }
+          }
+        },
+        "stock": {
+          "madeira": 0,
+          "pedra": 0,
+          "agua": 0,
+          "fruta": 0
+        },
+        "uses": 1,
+        "lastUse": 4,
+        "owner": "laya",
+        "broken": true
+      }
+    ],
+    "terrain": [],
+    "equipment": "espada_smoke"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "map": {
+    "name": "Vale da Laya",
+    "width": 7,
+    "height": 7,
+    "buildLimit": 14,
+    "buildMargin": 1,
+    "sites": [
+      { "id": "casa", "kind": "casa", "name": "Casinha", "area": [{ "x": 1, "y": 1 }] },
+      { "id": "horta", "kind": "horta", "name": "Horta", "area": [{ "x": 4, "y": 2 }] },
+      { "id": "bosque", "kind": "bosque", "name": "Bosque", "area": [{ "x": 1, "y": 4 }] },
+      { "id": "pedreira", "kind": "pedreira", "name": "Pedreira", "area": [{ "x": 4, "y": 5 }] },
+      { "id": "margem", "kind": "margem", "name": "Embarcadouro", "area": [{ "x": 5, "y": 3 }] },
+      { "id": "lago", "kind": "lago", "name": "Lago", "area": [{ "x": 4, "y": 3 }, { "x": 4, "y": 4 }, { "x": 5, "y": 4 }] }
+    ],
+    "trails": [
+      { "x": 1, "y": 2 }, { "x": 2, "y": 2 }, { "x": 3, "y": 2 }, { "x": 2, "y": 3 },
+      { "x": 2, "y": 4 }, { "x": 2, "y": 5 }, { "x": 3, "y": 5 }, { "x": 2, "y": 1 },
+      { "x": 3, "y": 1 }, { "x": 4, "y": 1 }, { "x": 5, "y": 1 }, { "x": 5, "y": 2 },
+      { "x": 5, "y": 3 }
+    ],
+    "trees": [
+      { "x": 0, "y": 0 }, { "x": 0, "y": 2 }, { "x": 0, "y": 5 }, { "x": 1, "y": 6 },
+      { "x": 0, "y": 4 }, { "x": 6, "y": 1 }, { "x": 6, "y": 2 }, { "x": 6, "y": 5 },
+      { "x": 5, "y": 6 }
+    ],
+    "lookouts": [{ "x": 2, "y": 1 }, { "x": 5, "y": 5 }, { "x": 3, "y": 4 }, { "x": 1, "y": 5 }],
+    "climate": {
+      "sunrise": 360,
+      "sunset": 1140,
+      "cycleStart": 480,
+      "phaseMinutes": 140,
+      "rainPhases": [false, false, true, true, false]
+    }
+  },
+  "initial": {
+    "minute": 480,
+    "position": { "x": 2, "y": 2 },
+    "vitals": { "energia": 82, "fome": 24, "alegria": 62, "umidade": 36, "sede": 18, "hp": 100 },
+    "bag": { "madeira": 4, "pedra": 3, "agua": 2, "fruta": 0 },
+    "arrival": "Laya chegou ao vale com uma bolsa de materiais."
+  }
+}

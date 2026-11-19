@@ -1,0 +1,19 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #283d32;
+  background: #edf1e1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 360px; min-height: 100vh; }
+button, select { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, select:focus-visible, .map-invention:focus-visible {
+  outline: 2px solid #567846;
+  outline-offset: 3px;
+}
+h1, h2, h3, p { margin: 0; }
